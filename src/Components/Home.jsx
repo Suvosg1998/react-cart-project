@@ -19,7 +19,7 @@ import { Link, useParams } from "react-router-dom";
   return (
     <>
     <Typography variant="h4" style={{ margin: "20px", textAlign: "center", fontWeight: "bold" }} gutterBottom>
-      {category ? category[0].toUpperCase() + category.slice(1) : "All"}
+      {category ? category[0].toUpperCase() + category.slice(1) : "Electronics"}
     </Typography>
     <Grid container spacing={3} style={{ padding: "20px" }}>
       {items.map((product) => (
